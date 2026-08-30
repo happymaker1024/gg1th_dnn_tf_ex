@@ -45,9 +45,10 @@ chmod +x run_gpu_code.sh
 ./run_gpu_code.sh
 ```
 
-# GPU RTX 3060에 맞는 TensorFlow/CUDA 조합
-## 방법1. 안정성 우선
+# GPU와 TensorFlow/CUDA 조합
 - GTX 1050, RTX 3060 모두 가능
+
+## 방법1. 안정성 우선
 ```
 uv add "tensorflow[and-cuda]==2.17.1"
 ```
