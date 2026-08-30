@@ -5,10 +5,14 @@ uv init --bare
 ```
 
 # 라이브러리 설치
+- GPU 테스트 환경 : GTX 1050
+- WSL2 Ubuntu 24.04
+- python 3.12
 ```
-uv add "tensorflow[and-cuda]"   <-- 2.21.0
-uv add "tensorflow[and-cuda]==2.20.0" <-- CNN에서 오류 발생시 다운그레이드
-uv add "tensorflow[and-cuda]==2.17.1"
+uv add "tensorflow[and-cuda]"   <-- 2.21.0 최신버전(2026. 08. 30)
+uv add "tensorflow[and-cuda]==2.20.0"   <-- CNN에서 오류 발생
+uv add "tensorflow[and-cuda]==2.17.1"   <-- CNN GPU 정상 실행
+
 uv add seaborn pandas matplotlib scikit-learn
 ```
 
