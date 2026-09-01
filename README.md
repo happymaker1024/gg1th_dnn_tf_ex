@@ -77,3 +77,8 @@ CUDA          12.5
 cuDNN         9.3
 WSL2 Ubuntu
 ```
+
+# VRAM 실시간 모니터링 linux 명령어
+```
+watch -n 1 nvidia-smi
+```
